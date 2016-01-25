@@ -1,0 +1,20 @@
+<article class="post">
+    <% photos = article_photos(article) %>
+    <% photos.each do |photo| %>
+        <figure>
+            <%= image_tag photo, :class => "photo-wide" %>
+        </figure>
+    <% end %>
+
+    <header <% if (photos.any?) %> class="photos" <% end %>>
+        <h1><%= link_to article.title, article.path %></h1>
+        <time datetime="<%= article.date%>"><%= article.date.strftime(date_format) %></time>
+    </header>
+    <%= article.body %>
+    <% campaign = campaign_info(article) %>
+    <% if campaign %>
+    <footer>
+        <%= link_to "Donate", campaign.donation_link, :class => "donate" %>
+    </footer>
+    <% end %>
+</article>

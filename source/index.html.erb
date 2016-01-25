@@ -1,0 +1,21 @@
+---
+body_class: home
+---
+
+<% if blog.articles.any?
+        article = blog.articles[0]
+        %>
+        <article>
+            <aside>From the blog…</aside>
+            <header>
+                <h1><%= link_to article.title, article.path %></h1>
+                <time datetime="<%= article.date%>"><%= article.date.strftime('%B %e, %Y') %></time>
+            </header>
+            <%= article.body %>
+        </article>
+<% end %>
+
+
+<article class="about">
+<%= partial 'about' %>
+</article>

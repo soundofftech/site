@@ -1,0 +1,4 @@
+<% wrap_layout :layout do %>
+    <%= partial 'article', :locals => { :article => current_article } %>
+    <%= partial 'author_info', :locals => { :article => current_article } %>
+<% end %>

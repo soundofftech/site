@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1'>
+          <% if current_page.data.original_url %>
+            <link rel="canonical" href="<%= current_page.data.original_url %>">
+          <% else %>
+            <link rel="canonical" href="http://soundofftech.org/"/>
+          <% end %>
+		<meta property="og:site_name" content="Sound Off"/>
+		<meta property="og:title" content="Sound Off"/>
+		<meta property="og:url" content="http://soundofftech.org/"/>
+		<meta property="og:type" content="website"/>
+		<meta itemprop="name" content="Sound Off"/>
+		<meta itemprop="url" content="http://soundofftech.org/"/>
+		<meta name="twitter:title" content="Sound Off"/>
+		<meta name="twitter:url" content="http://soundofftech.org/"/>
+		<meta name="twitter:card" content="Sound Off non-profit"/>
+		
+		<title>Sound Off<%= ' - ' + current_article.title unless current_article.nil? %></title>
+		<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+		<%= stylesheet_link_tag 'style' %>
+	</head>
+	<body <% if current_page.data.body_class %>class="<%=current_page.data.body_class%>"<% end %>>
+		<nav>
+			<a href="/" class="home"><span style="background-image: url(<%=url_for('/images/soundoff-logo.png')%>)">Home</span></a>
+			<a href="/about" class="about">About</a>
+			<a class="blog" href="/blog">Blog</a>
+			<a class="speaker" href="/speaker-training">Speaker Training</a>
+			<a href="/contact" class="contact">Contact</a>
+		</nav>
+		
+		<%= yield %>
+		
+		<footer><p class="small">Copyright © <time><%= Time.now.year %></time> Sound Off</p></footer>
+
+	</body>
+</html>

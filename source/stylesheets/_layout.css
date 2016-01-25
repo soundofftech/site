@@ -1,0 +1,72 @@
+/** LAYOUT **/
+
+nav
+{
+    background: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+nav a
+{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    height: 120px;
+    margin-left: 1em;
+}
+
+nav a.about
+{
+}
+
+nav a.home
+{
+    top: 1em;
+    left: 2em;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    text-indent: -9000px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #fff;
+    margin: 0;
+}
+
+nav a.home span
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9000px;
+}
+
+nav a.contact
+{
+    text-align: right;
+}
+
+.donate
+{
+    border: 1px solid #666;
+    margin: 0 auto;
+    display: block;
+    width: 6em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.donate:hover
+{
+    background-color: #59a6ed;
+    color: white;
+}

@@ -1,0 +1,16 @@
+<% wrap_layout :layout do %>
+  <% article = current_page %>
+  <article class="campaign">
+      <% photos = article_photos(article) %>
+      <% photos.each do |photo| %>
+          <figure>
+              <%= image_tag photo, :class => "photo-wide" %>
+          </figure>
+      <% end %>
+
+      <header>
+          <h1><%= link_to article.data.name, article.path %></h1>
+      </header>
+      <%= yield %>
+  </article>
+<% end %>
