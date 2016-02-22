@@ -74,6 +74,12 @@ header.site h2
   color: #bbb;
 }
 
+footer
+{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 /* Typography */
 /*Accent color*/
 a
@@ -157,7 +163,8 @@ h1, h2
 h1, h2, h3, h4, h5
 {
     font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #666;
+    color: #444;
+    font-weight: bold;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a
@@ -313,7 +320,7 @@ article img
   margin-bottom: 1em;
   display: flex;
   flex-wrap: nowrap;
-  align-items: baseline; 
+  align-items: baseline;
   justify-content: space-between;
 }
 
@@ -479,7 +486,7 @@ article li p
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     article p, article table, article pre, article blockquote, article ol, article ul, article header,
     article h1, article h2, article h3, article h4, article h5, article h6, article aside
     {
@@ -496,7 +503,7 @@ article li p
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .post-meta img.avatar
     {
         align-self: center;
@@ -504,11 +511,11 @@ article li p
     }
 }
 
-@media screen and (max-width: 320px) 
+@media screen and (max-width: 320px)
 {
     body
     {
         font-size: 14px;
     }
-    
+
 }

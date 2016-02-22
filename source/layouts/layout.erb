@@ -17,22 +17,23 @@
 		<meta name="twitter:title" content="Sound Off"/>
 		<meta name="twitter:url" content="http://soundofftech.org/"/>
 		<meta name="twitter:card" content="Sound Off non-profit"/>
-		
+
 		<title>Sound Off<%= ' - ' + current_article.title unless current_article.nil? %></title>
 		<%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
 		<%= stylesheet_link_tag 'style' %>
 	</head>
 	<body <% if current_page.data.body_class %>class="<%=current_page.data.body_class%>"<% end %>>
-		<nav>
-			<a href="/" class="home"><span style="background-image: url(<%=url_for('/images/soundoff-logo.png')%>)">Home</span></a>
+		<div id="header">
+			<div id="header-logo"><a href="/" class="home"><span style="background-image: url(<%=url_for('/images/soundoff-logo.png')%>)">Home</span></a></div></div>
+		<nav class="nav">
 			<a href="/about" class="about">About</a>
-			<a class="blog" href="/blog">Blog</a>
-			<a class="speaker" href="/speaker-training">Speaker Training</a>
+			<a href="/blog">Blog</a>
+			<a href="/speaker-training">Speaker Training</a>
 			<a href="/contact" class="contact">Contact</a>
 		</nav>
-		
+
 		<%= yield %>
-		
+
 		<footer><p class="small">Copyright © <time><%= Time.now.year %></time> Sound Off</p></footer>
 
 	</body>
