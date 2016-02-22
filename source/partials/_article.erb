@@ -7,14 +7,14 @@
     <% end %>
 
     <header <% if (photos.any?) %> class="photos" <% end %>>
-        <h1><%= link_to article.title, article.path %></h1>
+        <h1><%= link_to article.title, article.url %></h1>
         <time datetime="<%= article.date%>"><%= article.date.strftime(date_format) %></time>
     </header>
     <%= article.body %>
     <% campaign = campaign_info(article) %>
     <% if campaign %>
     <footer>
-        <%= link_to "Donate", campaign.donation_link, :class => "donate" %>
+        <%= campaign_link(article) %>
     </footer>
     <% end %>
 </article>

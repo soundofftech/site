@@ -14,6 +14,9 @@ page '/*.txt',  layout: false
 # Disable directory_index for 404 page
 page '/error.html', directory_index: false
 
+# Rename /about.html to just /about
+proxy "/about", "/about.html", :ignore => true
+
 # CAMPAIGNS
 campaign_templates = Dir['source/campaigns/*.markdown']
 

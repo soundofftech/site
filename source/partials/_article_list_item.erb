@@ -1,0 +1,4 @@
+		<li>
+			<h2><%= link_to article.title, article.url %></h2>
+			<time datetime="<%=article.date%>"><%= article.date.strftime(date_format) %></time>
+		</li>

@@ -1,0 +1,27 @@
+---
+title: Articles
+body_class: articles
+---
+
+<% if blog.articles.any?
+        articles = Array.new(blog.articles)
+        first_date = no_time(articles[0].date)
+        featured_articles, other_articles = blog.articles.partition { |article| no_time(article.date) == first_date }
+
+        featured_articles.each do |article| %>
+        <%= partial 'article', :locals => { :article => article } %>
+        <% end %>	
+
+        <% if other_articles.any? %>
+        <section class="article-list">
+            <h1>Recently</h1>
+            <ul>
+                <% other_articles.each do |article| %>
+                    <%= partial 'article_list_item', :locals => { :article => article } %>
+                <% end %>
+            </ul>
+        </section>
+        <% end %>
+<% else %>
+	<hr>
+<% end %>

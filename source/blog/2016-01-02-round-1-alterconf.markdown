@@ -1,6 +1,6 @@
 ---
 title: Round 1 – AlterConf
-author: Jeff Watkins
+author: jeff
 date: 2016-01-02
 campaign: alterconf
 ---
