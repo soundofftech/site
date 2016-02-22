@@ -17,6 +17,12 @@ page '/error.html', directory_index: false
 # Rename /about.html to just /about
 proxy "/about", "/about.html", :ignore => true
 
+# Rename /contact.html to just /contact
+proxy "/contact", "/contact.html", :ignore => true
+
+# Rename /speaker-training.html to just /contact
+proxy "/speaker-training", "/speaker-training.html", :ignore => true
+
 # CAMPAIGNS
 campaign_templates = Dir['source/campaigns/*.markdown']
 
