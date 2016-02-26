@@ -23,6 +23,12 @@
 		<%= stylesheet_link_tag 'style' %>
 	</head>
 	<body <% if current_page.data.body_class %>class="<%=current_page.data.body_class%>"<% end %>>
+		<div id="banner">
+	    	<div id="banner-content">
+	    		<div id="banner-text">Help AlterConf provide live captioning and ASL</div>
+	    		<button id="banner-button">Give Now!</button>
+    		</div>
+  		</div>
 		<div id="header">
 			<div id="header-logo"><a href="/" class="home"><span style="background-image: url(<%=url_for('/images/soundoff-cropped-logo.png')%>)">Home</span></a></div></div>
 		<nav class="nav">

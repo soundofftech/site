@@ -1,19 +1,20 @@
 /** LAYOUT **/
 
-.nav {
+.nav 
+{
   text-align: center;
-
 }
-.nav a {
+
+.nav a 
+{
   color: white;
   height: 30px;
   margin-right: 1.5em;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Lato', helvetica, sans-serif;
 }
 
-nav
+nav 
 {
     background: black;
     display: flex;
@@ -25,7 +26,7 @@ nav
     position: relative;
 }
 
-nav a
+nav a 
 {
     color: white;
     font-size: 18px;
@@ -35,11 +36,11 @@ nav a
     margin-left: 2em;
 }
 
-nav a.about
+nav a.about 
 {
 }
 
-nav a.home
+nav a.home 
 {
     top: 1em;
     left: 2em;
@@ -52,25 +53,51 @@ nav a.home
     margin: 0;
 }
 
-#header {
-  height: 400px;
-  background-color: #D3EEF9;
-  padding-top: 40px;
+#banner button 
+{
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
-#header-logo{
+#banner-text 
+{
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#banner 
+{
+  text-align: center;
+  background: black;
+  padding: 1em 1em;
+  position: relative;
+}
+
+#header 
+{
+  height: 400px;
+  background-color: #D3EEF9;
+  padding-top: 20px;
+}
+
+#header-logo 
+{
   max-width: 750px;
   width: 100%;
   height: 100%;
   margin: auto;
 }
 
-p{
+p 
+{
   font-size: 1.1em;
-  font-family: 'Open Sans', 'Lato', helvetica;
 }
 
-#header a.home span
+#header a.home span 
 {
     display: block;
     width: 100%;
@@ -81,12 +108,11 @@ p{
     text-indent: -9000px;
 }
 
-nav a.contact
-{
+nav a.contact {
     text-align: right;
 }
 
-.donate
+.donate 
 {
     border: 1px solid #666;
     margin: 0 auto;
@@ -97,8 +123,40 @@ nav a.contact
     border-radius: 5px;
 }
 
-.donate:hover
+.donate:hover 
 {
     background-color: #59a6ed;
     color: white;
 }
+
+/* TODO: Swap out background so text doesn't get clipped */
+
+@media screen and (max-width: 320px)
+{
+  #banner-text
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 400px) 
+{
+  nav a
+  {
+    margin: auto;
+  }
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+
