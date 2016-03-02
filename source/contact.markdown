@@ -1,3 +1,4 @@
+<article id="contact-container">
 <div class="article">
     <form autocomplete="on" action="">
         <div>
@@ -14,7 +15,7 @@
                 <input class="field-element text" type="text" id="subject_field">
             </div>
             <div class="form-item field textarea required">
-                <label class="title" for="info_field">Message <span class="required">*</span></label> 
+                <label class="title" for="info_field">Message <span class="required">*</span></label>
                 <textarea class="field-element" id="info_field"></textarea>
             </div>
         </div>
@@ -23,3 +24,4 @@
         </div>
     </form>
 </div>
+</article>

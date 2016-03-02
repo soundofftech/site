@@ -1,11 +1,11 @@
 /** LAYOUT **/
 
-.nav 
+.nav
 {
   text-align: center;
 }
 
-.nav a 
+.nav a
 {
   color: white;
   height: 30px;
@@ -14,7 +14,7 @@
   font-weight: bold;
 }
 
-nav 
+nav
 {
     background: black;
     display: flex;
@@ -26,7 +26,7 @@ nav
     position: relative;
 }
 
-nav a 
+nav a
 {
     color: white;
     font-size: 18px;
@@ -36,11 +36,11 @@ nav a
     margin-left: 2em;
 }
 
-nav a.about 
+nav a.about
 {
 }
 
-nav a.home 
+nav a.home
 {
     top: 1em;
     left: 2em;
@@ -53,7 +53,11 @@ nav a.home
     margin: 0;
 }
 
-#banner button 
+#contact-container {
+  margin: 0% 20%;
+}
+
+#banner button
 {
   color: white;
   height: 30px;
@@ -61,7 +65,7 @@ nav a.home
   font-weight: bold;
 }
 
-#banner-text 
+#banner-text
 {
   color: white;
   height: 30px;
@@ -69,22 +73,22 @@ nav a.home
   font-weight: bold;
 }
 
-#banner 
+#banner
 {
   text-align: center;
-  background: black;
+  background: #508960;
   padding: 1em 1em;
   position: relative;
 }
 
-#header 
+#header
 {
   height: 400px;
   background-color: #D3EEF9;
   padding-top: 20px;
 }
 
-#header-logo 
+#header-logo
 {
   max-width: 750px;
   width: 100%;
@@ -92,12 +96,12 @@ nav a.home
   margin: auto;
 }
 
-p 
+p
 {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
-#header a.home span 
+#header a.home span
 {
     display: block;
     width: 100%;
@@ -112,7 +116,7 @@ nav a.contact {
     text-align: right;
 }
 
-.donate 
+.donate
 {
     border: 1px solid #666;
     margin: 0 auto;
@@ -123,7 +127,7 @@ nav a.contact {
     border-radius: 5px;
 }
 
-.donate:hover 
+.donate:hover
 {
     background-color: #59a6ed;
     color: white;
@@ -139,7 +143,7 @@ nav a.contact {
   }
 }
 
-@media (min-width: 400px) 
+@media (min-width: 400px)
 {
   nav a
   {
@@ -158,5 +162,3 @@ nav a.contact {
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-
