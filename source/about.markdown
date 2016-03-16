@@ -2,9 +2,8 @@
 layout: page
 ---
 
-
-
 ## Some History
+
 Sound Off started quietly enough. In May of 2015, former Seattle Xcoder and all-around excellent person, Jessie Char announced a new conference, [Layers](http://www.bringyourlayers.com). In a nod to the unequal pay women **still** receive, Layers offered discounted tickets to attendees who identified as women. This moved a few of us in the Seattle Xcoders community to raise the money to provide two scholarship tickets. Subscriptions opened with a simple email among friends:
 
 > I've contacted Jessie Char about offering a scholarship for a woman designer/engineer for her upcoming Layers conference (http://www.bringyourlayers.com) funded by the Seattle community. I think between us, this would be relatively painless. 
@@ -31,14 +30,14 @@ We don't believe we're qualified to solve the problem of under represented peopl
 ## Our Board
 While Sound Off was founded by two white men – arguably, representatives of all that's wrong with our industry – we've moving quickly to seat a board that is more representative of our goals.
 
-### Ashley Nelson Hornstein
+### [Ashley Nelson Hornstein](http://ashleynh.me)
 
-### Doug Russell
+### [Doug Russell](http://takingnotes.co)
 
-### Laura Savino
+### [Laura Savino](https://vimeo.com/112107650)
 
-### Jeff Watkins
-=======
+### [Jeff Watkins](http://metrocat.org)
+
 # What We Do
 
 Sound Off works to increase access to professional settings for marginalized peoples in tech. Our current focus is on access to conferences.
