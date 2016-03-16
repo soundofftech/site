@@ -4,6 +4,8 @@ set :photos_path, 'photos'
 
 set :partials_dir, 'partials'
 
+activate :directory_indexes
+
 # Per-page layout changes:
 #
 # With no layout
@@ -15,13 +17,13 @@ page '/*.txt',  layout: false
 page '/error.html', directory_index: false
 
 # Rename /about.html to just /about
-proxy "/about", "/about.html", :ignore => true
+# proxy "/about", "/about.html", :ignore => true
 
 # Rename /contact.html to just /contact
-proxy "/contact", "/contact.html", :ignore => true
+# proxy "/contact", "/contact.html", :ignore => true
 
-# Rename /speaker-training.html to just /contact
-proxy "/speaker-training", "/speaker-training.html", :ignore => true
+# Rename /speaker-training.html to just /speaker-training
+# proxy "/speaker-training", "/speaker-training.html", :ignore => true
 
 # CAMPAIGNS
 campaign_templates = Dir['source/campaigns/*.markdown']
@@ -93,7 +95,7 @@ activate :s3_sync do |s3_sync|
   s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
   s3_sync.aws_access_key_id          = 'AWS KEY ID'
   s3_sync.aws_secret_access_key      = 'AWS SECRET KEY'
-  s3_sync.delete                     = false # We delete stray files by default.
+  s3_sync.delete                     = true # We delete stray files by default.
   s3_sync.after_build                = false # We do not chain after the build step by default.
   s3_sync.prefer_gzip                = true
   s3_sync.path_style                 = true
@@ -103,5 +105,5 @@ activate :s3_sync do |s3_sync|
   s3_sync.prefix                     = ''
   s3_sync.version_bucket             = false
   s3_sync.index_document             = 'index.html'
-  s3_sync.error_document             = '404.html'
+  s3_sync.error_document             = 'error.html'
 end

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 <article id="contact-container">
 <div class="article">
     <form autocomplete="on" action="">
