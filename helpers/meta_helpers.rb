@@ -17,12 +17,10 @@ module MetaHelpers
     end
     
     def campaign_info(article)
-      if (article)
-        campaign_page = sitemap.find_resource_by_destination_path(article.data.campaign)
-        if (campaign_page)
-          return campaign_page.data
-        end
-      end
+      return if !article
+      campaign_page = sitemap.find_resource_by_destination_path(article.data.campaign)
+      return if !campaign_page
+      return campaign_page.data
     end
 
     def campaign_link(article)

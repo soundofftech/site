@@ -2,7 +2,7 @@
 title: Jeff on CocoaConf
 author: doug
 date: 2016-03-04
-campaign: alterconf
+campaign: ""
 ---
 
 Our own Jeff Watkins on CocoaConf and Codes of Conduct

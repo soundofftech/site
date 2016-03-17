@@ -1,5 +1,6 @@
 ---
 name: AlterConf
+layout: page
 website: http://alterconf.com
 donation_link: http://alterconf.com/sound-off
 start_date: 2016-01-01
