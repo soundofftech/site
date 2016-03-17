@@ -133,6 +133,10 @@ nav a.contact {
     color: white;
 }
 
+#banner {
+    display: none;
+}
+
 a.banner-button {
     padding: 4px 6px;
     text-align: center;
@@ -144,12 +148,10 @@ a.banner-button {
 
 /* TODO: Swap out background so text doesn't get clipped */
 
-@media screen and (max-width: 320px)
-{
-  #banner-text
-  {
-    display: none;
-  }
+@media screen and (max-width: 320px) {
+	#banner-text {
+		display: none;
+	}
 }
 
 @media (min-width: 400px)
