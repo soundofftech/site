@@ -34,7 +34,7 @@ Time.zone = 'Pacific Time (US & Canada)'
 ###
 
 activate :blog do |blog|
-  blog.permalink = 'blog/{year}/{month}/{title}'
+  blog.permalink = 'blog/{year}/{month}/{title}.html'
   blog.sources = 'blog/{year}-{month}-{day}-{title}.html'
   
   blog.layout = "article"
