@@ -30,14 +30,6 @@ We don't believe we're qualified to solve the problem of under represented peopl
 ## Our Board
 While Sound Off was founded by two white men – arguably, representatives of all that's wrong with our industry – we've moving quickly to seat a board that is more representative of our goals.
 
-### [Ashley Nelson Hornstein](http://ashleynh.me)
-
-### [Doug Russell](http://takingnotes.co)
-
-### [Laura Savino](https://vimeo.com/112107650)
-
-### [Jeff Watkins](http://metrocat.org)
-
 # What We Do
 
 Sound Off works to increase access to professional settings for marginalized peoples in tech. Our current focus is on access to conferences.

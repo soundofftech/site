@@ -13,16 +13,22 @@ module MetaHelpers
     end
     
     def no_time(date)
-    	Date.new(date.year, date.month, date.day)
+      Date.new(date.year, date.month, date.day)
     end
     
     def campaign_info(article)
-      sitemap.find_resource_by_destination_path(article.data.campaign).data
-      # data.campaigns[article.data.campaign]
+      if (article)
+        campaign_page = sitemap.find_resource_by_destination_path(article.data.campaign)
+        if (campaign_page)
+          return campaign_page.data
+        end
+      end
     end
 
     def campaign_link(article)
+      return if !article
       campaign_page = sitemap.find_resource_by_destination_path(article.data.campaign)
+      return if !campaign_page
       campaign_info = campaign_page.data
       return if !campaign_info
       end_date = no_time(campaign_info["end_date"])

@@ -16,21 +16,11 @@ page '/*.txt',  layout: false
 # Disable directory_index for 404 page
 page '/error.html', directory_index: false
 
-# Rename /about.html to just /about
-# proxy "/about", "/about.html", :ignore => true
-
-# Rename /contact.html to just /contact
-# proxy "/contact", "/contact.html", :ignore => true
-
-# Rename /speaker-training.html to just /speaker-training
-# proxy "/speaker-training", "/speaker-training.html", :ignore => true
-
 # CAMPAIGNS
 campaign_templates = Dir['source/campaigns/*.markdown']
 
 campaign_templates.map! do |tpl_name|
   tpl_name = File.basename(tpl_name).gsub(/.markdown$/, '')
-  proxy "/#{tpl_name}", "/campaigns/#{tpl_name}.html", :ignore => true, :layout => "campaign"
 end
 
 ###
@@ -93,8 +83,6 @@ end
 activate :s3_sync do |s3_sync|
   s3_sync.bucket                     = 'www.soundofftech.org' # The name of the S3 bucket you are targeting. This is globally unique.
   s3_sync.region                     = 'us-east-1'     # The AWS region for your bucket.
-  s3_sync.aws_access_key_id          = 'AWS KEY ID'
-  s3_sync.aws_secret_access_key      = 'AWS SECRET KEY'
   s3_sync.delete                     = true # We delete stray files by default.
   s3_sync.after_build                = false # We do not chain after the build step by default.
   s3_sync.prefer_gzip                = true

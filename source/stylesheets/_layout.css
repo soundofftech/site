@@ -133,6 +133,15 @@ nav a.contact {
     color: white;
 }
 
+a.banner-button {
+    padding: 4px 6px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
 /* TODO: Swap out background so text doesn't get clipped */
 
 @media screen and (max-width: 320px)
