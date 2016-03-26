@@ -16,7 +16,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Spacing */
 h1, h2, h3, h4, h5, p, ul, ol, pre 
 {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 /* Base */
@@ -29,17 +29,11 @@ html, body
 body 
 {
   font: 16px/1 "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* When using Open Sans Light, we have to specify the weight */
+  font-weight: 300;
   color: #666;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-header.site 
-{
-  max-width: 360px;
-  margin: 40px auto 40px auto;
-  text-align: center;
-  position: relative;
 }
 
 .profile-text 
@@ -54,24 +48,6 @@ img.avatar
 {
   border-radius: 50%;
   box-shadow: 0 0 0 2px #fff, 0 0 0 4px #bbb;
-}
-
-header.site img.avatar 
-{
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-}
-
-header.site h1
-{
-  margin-bottom: 10px;
-}
-
-header.site h2
-{
-  color: #bbb;
 }
 
 footer
@@ -108,7 +84,9 @@ p, li, blockquote, figcaption
 
 b, strong
 {
-    font-weight: bold;
+    /* When using Open Sans semi-bold need to specify weight */
+    /* font-weight: bold;*/
+    font-weight: 600;
 }
 
 em, i
@@ -144,13 +122,11 @@ article header.photos
 
 h1
 {
-    font-weight: 300;
     font-size: 2em;
 }
 
 h2
 {
-    font-weight: 300;
     font-size: 1.5em;
 }
 
@@ -162,7 +138,6 @@ h1, h2 {
 h1, h2, h3, h4, h5 {
     font-family: "Open Sans", -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
-    font-weight: bold;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -171,25 +146,24 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 
 h3 {
     font-size: 1.25em;
-    font-weight: 400;
 }
 
 h4
 {
     font-size: 1em;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 h5
 {
     font-size: 0.875em;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 h6
 {
   font-size: 0.75em;
-  font-weight: bold;
+  font-weight: 600;
   color: #666;
   margin-bottom: 0.5em;
 }
@@ -279,7 +253,7 @@ thead th, th
   text-align: left;
   padding: 0.8333em 1.25em;
   height: 1.666em;
-  font-weight: bold;
+  font-weight: 600;
   color: #444;
   border-bottom: 1px solid #eee;
   cursor: default;
@@ -395,7 +369,7 @@ article footer
 .post-meta h1
 {
   color: #666;
-  font-weight: bold;
+  font-weight: 600;
   font-size: inherit;
   margin: 0 inherit;
 }
@@ -464,62 +438,19 @@ article p
 
 .article-list, section.profile, aside.post-meta, footer
 {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 article p, article table, article pre, article blockquote, article ol, article ul, article header,
-article h1, article h2, article h3, article h4, article h5, article h6
+article h1, article h2, article h3, article h4, article h5, article h6, article aside
 {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 article li p
 {
     margin-left: 0;
     margin-right: 0;
-}
-
-/* Media Queries */
-@media screen and (min-width: 620px)
-{
-    .article-list, section.profile, aside.post-meta, footer, .board-list
-    {
-        max-width: 580px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    article p, article table, article pre, article blockquote, article ol, article ul, article header,
-    article h1, article h2, article h3, article h4, article h5, article h6, article aside
-    {
-        max-width: 580px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media screen and (max-width: 380px)
-{
-    .post-meta
-    {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .post-meta img.avatar
-    {
-        align-self: center;
-        margin-bottom: 1em;
-    }
-}
-
-@media screen and (max-width: 320px)
-{
-    body
-    {
-        font-size: 14px;
-    }
-
 }
