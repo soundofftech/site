@@ -484,7 +484,7 @@ article li p
 /* Media Queries */
 @media screen and (min-width: 620px)
 {
-    .article-list, section.profile, aside.post-meta, footer
+    .article-list, section.profile, aside.post-meta, footer, .board-list
     {
         max-width: 580px;
         margin-left: auto;

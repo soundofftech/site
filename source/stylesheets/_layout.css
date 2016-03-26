@@ -103,6 +103,40 @@ a.donate:hover, a.campaign:hover
     color: white;
 }
 
+.board-list > div
+{
+  font-size: 1em;
+  line-height: 1.4;
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: #666;
+}
+
+.board-list > div img.avatar
+{
+  height: 150px;
+  width: 150px;
+  flex: 0 0 auto;
+  margin-right: 1rem;
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+.board-list > div div.details
+{
+  flex: 1;
+}
+
+.board-list > div h1
+{
+  color: #666;
+  font-weight: bold;
+  font-size: inherit;
+  margin: 0 inherit;
+}
+
 /* TODO: Swap out background so text doesn't get clipped */
 
 @media screen and (max-width: 320px) {

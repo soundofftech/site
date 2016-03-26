@@ -25,7 +25,7 @@ module MetaHelpers
         p.data["section"] == section
       end
       
-      navigation_pages = navigation_pages.sort_by { |p| (p.data["section_order"] || 0) }
+      navigation_pages = navigation_pages.sort_by { |p| [(p.data["section_order"] || 0), p.data.title] }
     end
       
     def all_campaigns()
