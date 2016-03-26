@@ -1,19 +1,5 @@
 /** LAYOUT **/
 
-.nav
-{
-  text-align: center;
-}
-
-.nav a
-{
-  color: white;
-  height: 30px;
-  margin-right: 1.5em;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 nav
 {
     background: black;
@@ -21,129 +7,100 @@ nav
     flex-wrap: nowrap;
     justify-content: flex-end;
     align-items: center;
-    padding: 1em 2em;
-    margin-bottom: 2em;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
     position: relative;
+    font-size: 20px;
 }
 
 nav a
 {
     color: white;
-    font-size: 18px;
     display: inline-block;
     font-weight: bold;
-    height: 150px;
-    margin-left: 2em;
+    margin: 0 auto;
 }
 
-nav a.about
+nav.secondary 
 {
+    margin-top: -2rem;
+    background-color: #999;
+    font-size: 1rem;
+    justify-content: flex-start;
 }
 
-nav a.home
+nav.secondary a
 {
-    top: 1em;
-    left: 2em;
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    text-indent: -9000px;
-    border-radius: 50%;
-    box-shadow: 0 0 0 1px #fff;
-    margin: 0;
+    flex: none;
+    margin: 0 1.5rem;
+}
+
+nav a:first-child
+{
+    margin-left: 0;
+}
+
+nav a:last-child
+{
+    margin-right: 0;
 }
 
 #contact-container {
   margin: 0% 20%;
 }
 
-#banner button
-{
-  color: white;
-  height: 30px;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-#banner-text
-{
-  color: white;
-  height: 30px;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-#banner
+#donation-banner
 {
   text-align: center;
   background: #508960;
-  padding: 1em 1em;
+  padding: 1em;
   position: relative;
+}
+
+#donation-banner p
+{
+  color: white;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+#donation-banner a.button
+{
+    color: white;
+    border-color: white;
+}
+
+#donation-banner a.button:hover
+{
+    background-color: rgba(255,255,255,0.5);
 }
 
 #header
 {
   height: 400px;
   background-color: #D3EEF9;
-  padding-top: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#header-logo
-{
-  max-width: 750px;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-}
-
-p
-{
-  font-size: 1.2em;
-}
-
-#header a.home span
-{
-    display: block;
-    width: 100%;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    text-indent: -9000px;
-}
-
-nav a.contact {
-    text-align: right;
-}
-
-.donate
+a.donate, a.campaign
 {
     border: 1px solid #666;
     margin: 0 auto;
-    display: block;
-    width: 6em;
+    display: inline-block;
+/*    width: 6em;*/
     text-align: center;
     padding: 1em;
     border-radius: 5px;
 }
 
-.donate:hover
+a.donate:hover, a.campaign:hover
 {
     background-color: #59a6ed;
     color: white;
-}
-
-#banner {
-    display: none;
-}
-
-a.banner-button {
-    padding: 4px 6px;
-    text-align: center;
-    border: 1px solid;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
 }
 
 /* TODO: Swap out background so text doesn't get clipped */
@@ -154,16 +111,14 @@ a.banner-button {
 	}
 }
 
-@media (min-width: 400px)
-{
-  nav a
-  {
-    margin: auto;
-  }
+@media (min-width: 400px) {
+    
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+    
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}

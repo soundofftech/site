@@ -3,7 +3,6 @@ layout: page
 ---
 
 <article id="contact-container">
-<div class="article">
 	<script type="text/javascript">var zkrj3le0qjrrn1;(function(d, t) {
 	var s = d.createElement(t), options = {
 	'userName':'soundofftech',
@@ -21,6 +20,5 @@ layout: page
 	var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
 	})(document, 'script');</script>
     <div id="wufoo-zkrj3le0qjrrn1">
-	</div>
 </div>
 </article>

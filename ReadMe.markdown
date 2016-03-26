@@ -17,7 +17,14 @@ That it. Then you can visit the [localhost:4567](localhost:4567) to see the late
 
 # Publishing
 
-This will only be true once we have AWS set up.
+Create a `.s3_sync` file in the root of the project. This should have the following form:
+
+    ---
+    aws_access_key_id: <access key>
+    aws_secret_access_key: <secret key>
+    bucket: soundofftech-org
+    
+You *should* have downloaded this information when you signed in, but you can get this information from the [AWS Console](https://032141408253.signin.aws.amazon.com/console). I think the easiest way is to change your password.
 
 To publish the site, execute the following commands:
 
@@ -28,7 +35,7 @@ This builds the site and then syncs it with S3. It will automatically invalidate
 
 # Blogging
 
-We have sever customisations for blogging.
+We have several customisations for blogging.
 
 ## Author
 

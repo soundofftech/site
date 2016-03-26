@@ -1,0 +1,9 @@
+<%
+campaign = current_campaign()
+if (campaign != nil)
+%>        
+		<section id="donation-banner">
+                            <p><%=current_campaign.call_to_action%></p>
+                            <a class="button" href="<%=current_campaign.donation_link%>">Give Now!</a>
+  		</section>
+<%end%>

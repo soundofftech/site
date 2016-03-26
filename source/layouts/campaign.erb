@@ -8,8 +8,8 @@
           </figure>
       <% end %>
 
-      <header>
-          <h1><%= link_to article.data.name, article.path %></h1>
+      <header <% if (photos.any?) %> class="photos" <% end %>>
+          <h1><%= link_to article.data.name, article.data.website %></h1>
       </header>
       <%= yield %>
   </article>
