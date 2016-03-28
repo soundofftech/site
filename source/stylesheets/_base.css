@@ -32,7 +32,6 @@ body
   /* When using Open Sans Light, we have to specify the weight */
   font-weight: 300;
   color: #666;
-  -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
