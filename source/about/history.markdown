@@ -20,12 +20,10 @@ In less than a day, just a few people contributed money sufficient to send two w
 
 In the following months, we provided American Sign Language interpreters and live captioning to [AlterConf](http://alterconf.com) in Detroit. One of the reasons we're so enthusiastic about supporting ASL interpreters and live captioning is their presence at a conference can be the factor that hearing impaired conference goers use to decide whether to attend or not. It may be possible to read lips face to face, but a speaker on stage is too distant. An additional benefit of live captioning is conferences become substantially more accessible to conference goers for whom English may not be their primary or strongest language.
 
-Then in October, we provided another pair of scholarship tickets for two women to attend [NSScotland](http://nsscotland.com). One of our founders would be speaking there and we wanted to do our part to help enable under represented people to attend. We were also intrumental in encouraging their first childcare program, which was a smashing success. The children of the conference attendees made a movie about super powered squirrels. 
+Then in October, we provided another pair of scholarship tickets for two women to attend [NSScotland](http://nsscotland.com). One of our founders would be speaking there and we wanted to do our part to help enable underrepresented people to attend. We were also intrumental in encouraging their first childcare program, which was a smashing success. The children of the conference attendees made a movie about super powered squirrels. 
 
 This habit had to be encouraged.
 
-## Principles
+## Looking Ahead
 
-In January of 2016, we launched the Sound Off Web site with our first fund raising effort to once again provide ASL interpreters and live captioning for AlterConf. Our plan is to run a monthly fund raiser for a conference or organisation we feel is deserving of attention.
-
-We don't believe we're qualified to solve the problem of under represented people in the technology industry. That problem is so vast, so much larger than us. But there are great people doing amazing work: they don't get enough attention, they don't get enough money. We hope that by helping them get attention and money, we will be helping them solve the crushing challenges facing our industry.
+In January of 2016, we launched the Sound Off website with our first fundraising effort to once again provide ASL interpreters and live captioning for AlterConf. Our plan is to run a monthly fundraiser for a conference or organisation we feel is deserving of attention.
