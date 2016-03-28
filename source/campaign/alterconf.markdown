@@ -5,6 +5,8 @@ website: http://alterconf.com
 donation_link: http://alterconf.com/sound-off
 start_date: 2016-01-01
 end_date: 2016-01-31
+photo: alterconf.jpg
+photo_credit: Maria Comas on behalf of AlterConf
 ---
 
 AlterConf is a traveling conference series providing safe opportunities for marginalized people and those who support them in the tech and gaming industries. By highlighting the powerful voices and positive initiatives of local community members, they build hope and strengthen the community’s resolve to create safer, healthier spaces for everyone.
