@@ -3,7 +3,7 @@ name: UIKonf
 layout: page
 website: http://uikonf.com
 donation_link: http://alterconf.com/sound-off
-start_date: 2016-03-23
+start_date: 2016-03-28
 end_date: 2016-05-22
 photo: uikonf2015.jpg
 call_to_action: Help provide live captioning for the hearing impaired and english as a second language attendees at UIKonf 2016.
