@@ -5,7 +5,7 @@ nav
     background: black;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
     margin-bottom: 2rem;
@@ -17,7 +17,7 @@ nav a
 {
     color: white;
     display: inline-block;
-    margin: 0 auto;
+    margin: 0 1.5rem;
     min-width: 44px;
     text-align: center;
 }
@@ -27,16 +27,14 @@ nav.secondary
     margin-top: -2rem;
     background-color: #999;
     font-size: 1rem;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
-nav.secondary a
+/*nav.secondary a
 {
     flex: none;
-    margin: 0 1.5rem 0 0;
-    text-align: left;
 }
-
+*/
 nav a:first-child
 {
     margin-left: 0;

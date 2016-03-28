@@ -1,4 +1,4 @@
-<% if current_page.data.body_class == 'home'
+<%
 campaign = current_campaign()
 if (campaign)
     hero_image = "#{Pathname.new('/').join(photos_path, campaign.photo)}"
@@ -10,4 +10,3 @@ end
 %>
         <div id="header" style="background-image: url(<%=url_for(hero_image)%>); background-size:<%=background_size%>">
         </div>
-<% end %>
