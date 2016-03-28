@@ -24,6 +24,6 @@ Then in October, we provided another pair of scholarship tickets for two women t
 
 This habit had to be encouraged.
 
-## Looking Ahead
+# Looking Ahead
 
 In January of 2016, we launched the Sound Off website with our first fundraising effort to once again provide ASL interpreters and live captioning for AlterConf. Our plan is to run a monthly fundraiser for a conference or organisation we feel is deserving of attention.
