@@ -2,7 +2,7 @@
 name: UIKonf
 layout: page
 website: http://uikonf.com
-donation_link: http://alterconf.com/sound-off
+donation_link: https://www.gofundme.com/4dwhtd64
 start_date: 2016-03-29
 end_date: 2016-05-22
 photo: uikonf2015.jpg
