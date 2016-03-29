@@ -7,7 +7,7 @@ campaign: uikonf
 
 Round 2 kicks off today, with [UIKonf][uikonf] and live captioning!
 
-UIKonf is an independent conference in Berlin, Germany focusing on iOS development. Like all conferences we work with, UIKonf features a strong [Code of Conduct][uikonf-coc] to set expectations for attendees, speakers, and sponsors. Our own [Jeff Watkins][jeffwatkins] and [Ashley Nelson-Hornstein][ashleynh] will be speaking this year. Be sure to say "hi" if you’re attending!
+UIKonf is an independent conference in Berlin, Germany focusing on iOS development and taking place from May 22nd to May 25th. Like all conferences we work with, UIKonf features a strong [Code of Conduct][uikonf-coc] to set expectations for attendees, speakers, and sponsors. Our own [Jeff Watkins][jeffwatkins] and [Ashley Nelson-Hornstein][ashleynh] will be speaking this year. Be sure to say "hi" if you’re attending!
 
 Live captioning for UIKonf is not only going to open up the conference to the deaf community and the hard of hearing, but will be indispensable for many of the attendees for whom English is not their first language.
 
