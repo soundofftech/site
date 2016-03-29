@@ -60,7 +60,6 @@ nav a:last-child
 {
   color: white;
   font-size: 1rem;
-  font-weight: 600;
   margin: 0;
 }
 
@@ -83,6 +82,23 @@ nav a:last-child
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+}
+
+.photo-credit
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    font-size: 0.75rem;
+}
+
+.photo-credit a
+{
+    color: inherit;
 }
 
 a.donate, a.campaign
@@ -108,9 +124,11 @@ a.donate:hover, a.campaign:hover
   line-height: 1.4;
   flex: 1;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+  align-content: center;
   color: #666;
+  margin: 2rem 0;
 }
 
 .board-list > div img.avatar
@@ -119,13 +137,11 @@ a.donate:hover, a.campaign:hover
   width: 150px;
   flex: 0 0 auto;
   margin-right: 1rem;
-  align-self: flex-start;
-  margin-bottom: 3rem;
 }
 
 .board-list > div div.details
 {
-  flex: 1;
+  flex: 1 1 auto;
 }
 
 .board-list > div h1
@@ -134,4 +150,14 @@ a.donate:hover, a.campaign:hover
   font-weight: 600;
   font-size: inherit;
   margin: 0 inherit;
+}
+
+.board-list .social-link
+{
+    margin-bottom: 0;
+}
+
+.board-list .social-list
+{
+    margin-bottom: 0;
 }

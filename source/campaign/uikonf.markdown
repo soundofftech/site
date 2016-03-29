@@ -3,9 +3,11 @@ name: UIKonf
 layout: page
 website: http://uikonf.com
 donation_link: http://alterconf.com/sound-off
-start_date: 2016-03-28
+start_date: 2016-03-29
 end_date: 2016-05-22
 photo: uikonf2015.jpg
+photo_credit: Chris Santos for UIKonf 2015
+photo_credit_url: http://http://cristophersantos.com/
 call_to_action: Help provide live captioning for the hearing impaired and english as a second language attendees at UIKonf 2016.
 ---
 

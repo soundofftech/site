@@ -28,7 +28,7 @@
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  /* margin-right: .2em; */
+  margin-right: .4em;
   text-align: center;
   /* opacity: .8; */
 
@@ -54,3 +54,5 @@
 .icon-twitter:before { content: '\e801'; } /* '' */
 .icon-linkedin:before { content: '\e802'; } /* '' */
 .icon-web:before { content: '\e803'; } /* '' */
+.icon-camera:before { content: '\e804';}
+.icon-photo:before { content: '\e805';}

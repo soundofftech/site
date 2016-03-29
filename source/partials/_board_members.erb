@@ -10,9 +10,9 @@ board.each do |info| %>
             <p class="profile-text"><%= info.profile %></p>
             <% if info.twitter_username || info.linkedin_username || info.website_url %>
             <ul class="social-list">
-            <% if info. twitter_username %><li><a class="social-link" href="https://twitter.com/<%= info.twitter_username %>"><span class="icon-twitter"></span> <%=info.twitter_username%></a></li><% end %>
-            <% if info.linkedin_username %><li><a class="social-link" href="https://www.linkedin.com/in/<%= info.linkedin_username %>"><span class="icon-linkedin"></span> <%=info.linkedin_username%></a></li><% end %>
-            <% if info.website_url %><li><a class="social-link" href="<%= info.website_url %>"><span class="icon-web"></span> <%= info.website_name || info.website_url %></a></li><% end %>
+            <% if info. twitter_username %><li><a class="social-link" href="https://twitter.com/<%= info.twitter_username %>"><span class="icon-twitter"></span><%=info.twitter_username%></a></li><% end %>
+            <% if info.linkedin_username %><li><a class="social-link" href="https://www.linkedin.com/in/<%= info.linkedin_username %>"><span class="icon-linkedin"></span><%=info.linkedin_username%></a></li><% end %>
+            <% if info.website_url %><li><a class="social-link" href="<%= info.website_url %>"><span class="icon-web"></span><%= info.website_name || info.website_url %></a></li><% end %>
         </ul>
             <% end %>
             </div>

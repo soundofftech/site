@@ -52,6 +52,14 @@ This post will reference the author file `Jeff Watkins.yaml`. The author file pr
 * `website_url` – if provided, this will be used to include a link to the author's personal website.
 * `website_name` – Used in conjunction with the `website_url`.
 
+## Photos
+
+You can add large hero photos to a blog post (or any other page) in the YAML front matter via either the `photo` field or `photos` field. For example:
+
+    photo: uikonf.jpg
+    
+This will automatically create a hero image before the title and body of the page.
+
 ## Campaigns
 
 We can also link a blog post to a campaign. Each campaign has its own page in the `campaigns` folder, but appears in the root of the URL space (just life). If you want to attribute a blog post to a campaign, add the following to the YAML front matter:

@@ -3,10 +3,18 @@ campaign = current_campaign()
 if (campaign)
     hero_image = "#{Pathname.new('/').join(photos_path, campaign.photo)}"
     background_size = "cover"
+    if (campaign.photo_credit)
+        if (campaign.photo_credit_url)
+            hero_credit = link_to(campaign.photo_credit, campaign.photo_credit_url)
+        else
+            hero_credit = campaign.photo_credit
+        end
+    end
 else
     hero_image = "#{Pathname.new('/').join(images_dir, 'soundoff-logo-banner.png')}"
     background_size = "contain"
 end
 %>
         <div id="header" style="background-image: url(<%=url_for(hero_image)%>); background-size:<%=background_size%>">
+            <%if hero_credit%><span class="photo-credit icon-photo"><%=hero_credit%></span><%end%>
         </div>
