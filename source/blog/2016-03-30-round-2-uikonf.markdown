@@ -5,7 +5,9 @@ date: 2016-03-30
 campaign: uikonf
 ---
 
-Round 2 kicks off today, with [UIKonf][uikonf] and live captioning!
+Sound Off is a non-profit (paperwork pending) that works to increase the access marginalized people in tech have to professional opportunities. Each month, Sound Off hosts a fundraising campaign to support a worthy cause in technology.
+
+This month, we’re raising money for [UIKonf][uikonf] and live captioning!
 
 UIKonf is an independent conference in Berlin, Germany focusing on iOS development and taking place from May 22nd to May 25th. Like all conferences we work with, UIKonf features a strong [Code of Conduct][uikonf-coc] to set expectations for attendees, speakers, and sponsors. Our own [Jeff Watkins][jeffwatkins] and [Ashley Nelson-Hornstein][ashleynh] will be speaking this year. Be sure to say "hi" if you’re attending!
 
