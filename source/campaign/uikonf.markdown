@@ -4,7 +4,7 @@ layout: page
 website: http://uikonf.com
 donation_link: https://www.gofundme.com/sound-off-uikonf
 start_date: 2016-03-29
-end_date: 2016-05-22
+end_date: 2016-04-27
 photo: uikonf2015.jpg
 photo_credit: Chris Santos for UIKonf 2015
 photo_credit_url: http://http://cristophersantos.com/
