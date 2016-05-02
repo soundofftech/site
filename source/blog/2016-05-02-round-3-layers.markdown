@@ -15,7 +15,7 @@ CODE2040 is a nonprofit organization that creates pathways to educational, profe
 
 Partnering Layers with CODE2040 fellows and alumni gives these up-and-coming technologists a chance to learn from industry veterans and to interact with them as peers. These interactions will have a positive impact on everyone involved, fostering opportunities for networking and mentorship.
 
-Our fundraising goal for this round is $1700, the cost of two tickets to Layers 2016. We’re using YouCaring as our fundraising platform this time. YouCaring is specifically built for charitable giving, and does not charge a percentage fee on the money raised. This means that more of your donated amount will go to the cause. Should we raise more than our goal of $1700, even multiples of the ticket price ($850) will go towards additional scholarships. Any remaining funds will roll over into our next fundraising round. As always, we’ll make an invoice publicly available after the event.
+Our fundraising goal for this round is $1750, the cost of two tickets to Layers 2016 plus payment processing fees. We’re using YouCaring as our fundraising platform this time. YouCaring is specifically built for charitable giving, and does not charge a percentage fee on the money raised. This means that more of your donated amount will go to the cause. Should we raise more than our goal of $1750, even multiples of the ticket price ($850) plus fees ($25) will go towards additional scholarships. Any remaining funds will roll over into our next fundraising round. As always, we’ll make an invoice publicly available after the event.
 
 [Donate][donate] now to help us send two fellows or alumni of CODE2040 to Layers 2016!
 
