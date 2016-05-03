@@ -7,7 +7,7 @@ campaign: layers
 
 Sound Off is a non-profit (paperwork pending) that works to increase the access marginalized people in tech have to professional opportunities. Each month, Sound Off hosts a round of fundraising to support a worthy cause in technology.
 
-This month, we’re raising money to send two fellows or alumni of [CODE2040][code2040] to [Layers 2016][layers]!
+**This month, we’re raising money to send two fellows or alumni of [CODE2040][code2040] to [Layers 2016][layers]!**
 
 Layers is a design conference in San Francisco taking place from June 13th - June 15th. Folks who know our [history][history], know that Sound Off started as an informal fundraiser to send two women on scholarship to Layers 2015. We’re proud to continue to support a conference that features some of the best and brightest voices in our industry, including an outstanding number of women and people of color on stage and in the audience. Like all the conferences we support, Layers has a strong Code of Conduct.
 
@@ -15,9 +15,9 @@ CODE2040 is a nonprofit organization that creates pathways to educational, profe
 
 Partnering Layers with CODE2040 fellows and alumni gives these up-and-coming technologists a chance to learn from industry veterans and to interact with them as peers. These interactions will have a positive impact on everyone involved, fostering opportunities for networking and mentorship.
 
-Our fundraising goal for this round is $1750, the cost of two tickets to Layers 2016 plus payment processing fees. We’re using YouCaring as our fundraising platform this time. YouCaring is specifically built for charitable giving, and does not charge a percentage fee on the money raised. This means that more of your donated amount will go to the cause. Should we raise more than our goal of $1750, even multiples of the ticket price ($850) plus fees ($25) will go towards additional scholarships. Any remaining funds will roll over into our next fundraising round. As always, we’ll make an invoice publicly available after the event.
+**Our fundraising goal for this round is $1750, the cost of two tickets to Layers 2016 plus payment processing fees.** We’re using YouCaring as our fundraising platform this time. YouCaring is specifically built for charitable giving, and does not charge a percentage fee on the money raised. This means that more of your donated amount will go to the cause. Should we raise more than our goal of $1750, even multiples of the ticket price ($850) plus fees ($25) will go towards additional scholarships. Any remaining funds will roll over into our next fundraising round. As always, we’ll make an invoice publicly available after the event.
 
-[Donate][donate] now to help us send two fellows or alumni of CODE2040 to Layers 2016!
+**[Donate][donate] now to help us send two fellows or alumni of CODE2040 to Layers 2016!**
 
 [x]: http://www.latina.com/lifestyle/our-issues/why-we-say-latinx-trans-gender-non-conforming-people-explain
 [code2040]: http://www.code2040.org/
