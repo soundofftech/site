@@ -1,6 +1,6 @@
 ---
 title: Round 3 – Layers & CODE2040
-author: Ashley
+author: ashley
 date: 2016-05-02
 campaign: layers
 ---
