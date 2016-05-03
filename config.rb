@@ -29,7 +29,7 @@ campaign_templates = Dir['source/campaign/*.markdown']
 
 campaign_templates.map! do |tpl_name|
   tpl_name = File.basename(tpl_name).gsub(/.markdown$/, '')
-  proxy "/campaign/#{tpl_name}", "/campaign/#{tpl_name}.html", :ignore => true, :layout => "campaign"
+  proxy "/campaign/#{tpl_name}/index.html", "/campaign/#{tpl_name}.html", :ignore => true, :layout => "campaign"
 end
 
 ###
