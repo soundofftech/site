@@ -46,7 +46,7 @@ When publishing a blog post, you can credit the post to an author with the YAML 
 This post will reference the author file `ashley.yaml`. The author file provides the profile information that gets included at the bottom of a post. The fields available in the author file include:
 
 * `profile` – A short blurb about the author.
-* `avatar` – The path to the 200x200 px image of the author's photo. Should be in the `images` folder. For example `/images/jeff.png`
+* `avatar` – The path to the 200x200 px image of the author's photo. Should be in the `images` folder. For example `/images/ashley.png`
 * `name` – The full name of the author.
 * `twitter_username` – If provided, this will be used to include a link to the author's twitter account.
 * `website_url` – if provided, this will be used to include a link to the author's personal website.
