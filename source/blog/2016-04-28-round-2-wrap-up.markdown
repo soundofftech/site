@@ -13,8 +13,14 @@ Astute observers will notice that the published estimate is $375 higher than our
 
 We can’t wait to share our next round with you. Be on the lookout for it May 1st!
 
+## UPDATE
+
+Paid invoice: [pdf][invoice]
+
+
 [rd2]: /blog/2016/03/round-2-uikonf
 [uikonf]: http://www.uikonf.com
 [whitecoat]: http://www.whitecoatcaptioning.com
 [estimate]: /files/estimate-uikonf-2016.pdf
 [gofundme]: https://www.gofundme.com/sound-off-uikonf
+[invoice]: invoice-uikonf-2016.pdf
