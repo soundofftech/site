@@ -41,9 +41,9 @@ We have several customisations for blogging.
 
 When publishing a blog post, you can credit the post to an author with the YAML front matter field `author:`. This field will link to a file in the folder `~/data/authors` with the same name as the author. For example:
 
-    author: Jeff Watkins
+    author: ashley
     
-This post will reference the author file `Jeff Watkins.yaml`. The author file provides the profile information that gets included at the bottom of a post. The fields available in the author file include:
+This post will reference the author file `ashley.yaml`. The author file provides the profile information that gets included at the bottom of a post. The fields available in the author file include:
 
 * `profile` – A short blurb about the author.
 * `avatar` – The path to the 200x200 px image of the author's photo. Should be in the `images` folder. For example `/images/jeff.png`
