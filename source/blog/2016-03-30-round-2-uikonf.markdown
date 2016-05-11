@@ -1,5 +1,5 @@
 ---
-title: Round 2 – UIKonf
+title: Round 2 - UIKonf
 author: doug
 date: 2016-03-30
 campaign: uikonf
