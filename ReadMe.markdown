@@ -3,7 +3,7 @@
 You should be able to install everything by doing the following:
 
     gem install bundler
-    bundler install
+    bundle install
     
 Then you should have everything you need, because the `Gemfile` tells `bundler` what to get.
 
