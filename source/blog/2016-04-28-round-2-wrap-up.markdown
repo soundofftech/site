@@ -23,4 +23,4 @@ Paid invoice: [pdf][invoice]
 [whitecoat]: http://www.whitecoatcaptioning.com
 [estimate]: /files/estimate-uikonf-2016.pdf
 [gofundme]: https://www.gofundme.com/sound-off-uikonf
-[invoice]: invoice-uikonf-2016.pdf
+[invoice]: /files/invoice-uikonf-2016.pdf
