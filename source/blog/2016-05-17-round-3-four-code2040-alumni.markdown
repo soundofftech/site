@@ -11,6 +11,11 @@ The alumni will receive their tickets this week and we’ll be posting the paid 
 
 We can’t wait to share our next round with you. Be on the lookout for it!
 
+## UPDATE
+
+Paid invoice: [pdf][invoice]
+
 [round3]: http://soundofftech.org/blog/2016/05/round-3-layers/
 [code2040]: http://www.code2040.org
 [layers]: https://bringyourlayers.com
+[invoice]: /files/invoice-layers-2016.pdf
